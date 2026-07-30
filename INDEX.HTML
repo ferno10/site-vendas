@@ -1,0 +1,51 @@
+echo "# site-vendas" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M main 
+git remote add origin https://github.com/ferno10/site-vendas.git
+ git push -u origin main
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>Loja Tech</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main class="vitrine">
+        <!-- Produto 1 -->
+        <div class="produto-card">
+            <div class="produto-img">📷</div>
+            <h3>Teclado Mecânico</h3>
+            <p>Teclado RGB com switches azuis para alta performance.</p>
+            <span class="preco">R$ 250,00</span>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="produto-card">
+            <div class="produto-img">📷</div>
+            <h3>Mouse Gamer</h3>
+            <p>Mouse ergonômico com até 12000 DPI configuráveis.</p>
+            <span class="preco">R$ 150,00</span>
+            <button class="btn-comprar">Comprar</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Loja Tech - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
